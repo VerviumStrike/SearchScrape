@@ -15,6 +15,12 @@ SearchScrape is a google search scraper programmed using Javascript, it scrapes 
  2. SearchScraping Example: https://searchscrapev.herokuapp.com/api/searchscrape/Roblox.
  3. SearchScrape [Demo](https://searchscrapev.herokuapp.com/).
 
+# Dependancies
+
+ 1. https://www.npmjs.com/package/request
+ 2. https://www.npmjs.com/package/serp
+ 3. https://www.npmjs.com/package/express
+
 # Maintainer
 
  - [VerviumStrike](https://github.com/VerviumStrike)
