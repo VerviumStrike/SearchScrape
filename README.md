@@ -1,5 +1,5 @@
 # SearchScrape
-SearchScrape is a google search scraper programmed using Javascript, it scrapes the specific word in google search then respond it to the website in JSON. It's not very accurate and fast because it takes some time to scrape  but works
+SearchScrape is a google search scraper programmed using Javascript, it scrapes the specific word in google search then respond it to the website in JSON. It's not very accurate and fast because it takes some time to scrape but works.
 
 # Installation
 
