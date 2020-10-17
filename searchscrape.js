@@ -18,11 +18,12 @@ async function QueryScraper(Query, res){
  
     try{
         const links = await Serp.search(options);
-        res.json(JSON.parse(links))
-    }catch{
+        res.json(links)
+    }catch(error){
         res.json({
             "error": "Something went wrong."
         })
+        console.log(`Error occured: ${error}`)
     }
 }
 
