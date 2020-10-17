@@ -18,7 +18,7 @@ async function QueryScraper(Query, res){
  
     try{
         const links = await Serp.search(options);
-        console.log(links)
+        res.json(JSON.parse(links))
     }catch{
         res.json({
             "error": "Something went wrong."
