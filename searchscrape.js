@@ -10,7 +10,7 @@ const Web = Express()
 async function QueryScraper(Query, res){
     var options = {
         qs:{
-            q: "test"
+            q: Query
         },
         num: 100,
         delay: 2000
